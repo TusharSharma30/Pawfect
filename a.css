@@ -79,51 +79,26 @@ font-family: 'Poppins', sans-serif;
     background-size:cover;
     position:relative;
 }
-.main .box{
-    width:22vw;
-    height:22vw;
-    position:absolute;
-    background-color:white;
-    left:6vw;
-    top:9vw;
-}
-.inbox1{
-    width:7vw;
-    height:5vh;
-    line-height:5vh;
-    text-align:center;
-    background-color:rgb(70, 65, 65);
-    color:white;
-    font-size:1 rem;
-    position:absolute;
-    left:2vw;
-    top:3vw;
-}
-.inbox2{
-    width:10vw;
-    height:5vh;
-    line-height:5vh;
-    text-align:center;
-    color:rgb(56, 51, 51);
-    font-size:1rem;
-    position:absolute;
-    left:12vw;
-    top:3vw;
-}
-.box h3{
-    margin:0vh 2vw; }
 
-.box p{
-    margin:0vh 2vw;
-    font-size:1rem; }
+.main img{
+	position:absolute;
+	top: 15vh;
+	left: 10vh;
+	width:28vw;
+	height:28vw;
+}
 
-.box .btn{
+.main .btn{
     width:10vw;
     height:5vh;
     font-size:1rem;
     margin:2vh 6vw;
     background-color:green;
     color:white;
+	z-index:1;
+	position:absolute;
+	left: 7vw;
+	bottom: 20vh;
 }
 .box .btn:hover{
     background-color:white;
@@ -408,7 +383,7 @@ border:0px solid black;
 .main4 .in2{ width:59%;
     border:0px solid black;
     height:90%;
-float:right;
+    float:right;
     text-align:center;
     padding: 3vh 0vw;
 }
@@ -531,4 +506,489 @@ textarea:focus { text-decoration:none;
     background-size: cover;
     float: left;
     position: absolute;
+}
+
+@media only screen and (min-width:0px) and (max-width:500px){
+.navbar{
+    position: relative;
+    width: 98.5vw;
+    height: 10vh;
+    background-color: rgba(251,243,239,255);
+    text-align: center;
+    font-size: 1.7vh;
+    line-height:10vh;
+    color: rgba(47,25,14,255);
+   
+}
+.logo{
+    background-image: url(logo.png);
+    width: 11vw;
+    height: 4vw;
+    background-size: cover;
+	top:4vw;
+    left: 3vw;
+    float: left;
+    position: absolute;
+}
+.home{
+    left: 20vw;
+    float: left;
+    position: absolute;
+}
+.about{
+    left: 33vw;
+    float: left;
+    position: absolute;
+}
+.donate{
+    left: 45vw;
+    float: left;
+    position: absolute;
+}
+.contact{
+    left: 58vw;
+    float: left;
+    position: absolute;
+}
+.adoption{
+    left: 73vw;
+    float: left;
+    position: absolute;
+}
+.yt{
+    background-image: url(1.png);
+    width: 5vw;
+    height: 4vw;
+    background-size: cover;
+	top:4vw;
+    right:9vw;
+    float: left;
+    position: absolute;
+}
+.insta{
+    top: 1vh;
+    background-image: url(insta.png);
+    width: 3vw;
+    height: 3vw;
+    background-size: cover;
+    top:4.5vw;
+	right:5vw;
+    float: left;
+    position: absolute;
+}
+.main{
+    width: 71.5vw;
+    height: 90vh;
+    border:0px solid black;
+    background-color: white;
+    padding: 0px 13.5vw;
+    background-image:url(doggo.png);
+    background-size:cover;
+    position:relative;
+}
+
+.main img{
+	position:absolute;
+	top: 20vh;
+	left: 15vh;
+	width:45vw;
+	height:45vw;
+}
+
+.main .btn{
+    width:20vw;
+    height:5vh;
+    font-size:1rem;
+    margin:2vh 6vw;
+    background-color:green;
+    color:white;
+	z-index:1;
+	position:absolute;
+	left: 22vw;
+	bottom: 31vh;
+}
+.box .btn:hover{
+    background-color:white;
+    color:green;
+}
+.main2{
+    border: 0px solid black;
+    width: 98.5vw;
+    height: 60vh;
+    position: relative;
+}
+.main2 .about1{
+    border: 1px;
+    margin: 10vh 38vw 5vh 38vw;
+    padding:1vh 1vh;
+    background-color: rgb(121, 119, 119);
+    text-align: center;
+    width: 20%;
+    font-size:1.4rem;
+    color: white;
+}
+.main2 .text{
+    text-align: center;
+	margin:1vw;
+    font-size: 1.3rem;
+}
+.main2 .adopt{
+    position: absolute;
+    width: 7vw;
+    height: 7vh;
+    left: 20vw;
+    top: 35vh;
+}
+.main2 .feed{
+    position: absolute;
+    width: 7vw;
+    height: 7vh;
+    left: 50vw;
+    top: 35vh;
+}
+.main2 .donate{
+    position: absolute;
+    width: 7vw;
+    height: 7vh;
+    left: 80vw;
+    top: 35vh;
+}
+.main2 .adopt_text{
+    position: absolute;
+    top: 45vh;
+font-size:1rem;
+font-weight:600;
+    left: 13vw;
+}
+.main2 .feed_text{
+    position: absolute;
+    top: 45vh;
+font-size:1rem;
+font-weight:600;
+    left: 45vw;
+}
+.main2 .donate_text{
+    position: absolute;
+    top: 45vh;
+    left: 70vw;
+font-size:1rem;
+font-weight:600;
+}
+.main2 .adopt_1{
+    position: absolute;
+    text-align: center;
+	font-size:0.4rem;
+    top: 50vh;
+    left: 5vw;
+}
+.main2 .feed_1{
+    position: absolute;
+    text-align: center;
+	font-size:0.4rem;
+    top: 50vh;
+    left: 40vw;
+}
+.main2 .donate_1{
+    position: absolute;
+    text-align: center;
+	font-size:0.4rem;
+    top: 50vh;
+    left: 71vw;
+}
+.main3{
+    border: 0px solid black;
+    background-color: rgba(251,243,239,255);
+    width: 98.5vw;
+    height: 440vh;
+    position: relative;
+}
+.main3 .act{
+    border: 1px;
+    margin: 10vh 38vw 5vh 38vw;
+    padding:1vh 1vh;
+    background-color: rgb(121, 119, 119);
+    text-align: center;
+    width: 25%;
+    font-size:1.4rem;
+    color: white;
+    top: 5vh;
+}
+.main3 .act_1{
+    text-align: center;
+    font-size: 1.5rem;
+	margin:1vw;
+    color: black;
+}
+.main3 .vid1{
+    position: absolute;
+	width:55vw;
+	height:30vw;
+    left: 22vw;
+    top: 30vh;
+}
+.main3 .vid2{
+    position: absolute;
+	width:55vw;
+	height:30vw;
+    left: 22vw;
+    top: 75vh;
+}
+.main3 .vid3{
+    position: absolute;
+	width:55vw;
+	height:30vw;
+    left: 22vw;
+    top: 120vh;
+}
+.main3 .vid1_text{
+    position: absolute;
+    left: 30vw;
+    top: 60vh;
+font-size:1.3rem;
+font-weight:700;
+}
+.main3 .vid2_text{
+    position: absolute;
+    left: 33vw;
+    top: 105vh;
+font-size:1.3rem;
+    font-weight:700;
+}
+.main3 .vid3_text{
+    position: absolute;
+    left: 31vw;
+    top: 150vh;
+font-size:1.3rem;
+font-weight:700;
+}
+.main3 .vid1_text_1{
+    position: absolute;
+    left: 22vw;
+    top: 65vh;
+}
+.main3 .vid2_text_1{
+    position: absolute;
+    left: 23vw;
+    top: 110vh;
+}
+.main3 .vid3_text_1{
+    position: absolute;
+    left: 10vw;
+    top: 155vh;
+}
+.main3 .story{
+    border: 0px;
+    margin: 12vh 30vw 5vh 30vw;
+padding:1vh 1vh;
+    background-color: rgb(121, 119, 119);
+    text-align: center;
+    width: 40%;
+font-size:1.4rem;
+    color: white;
+position:absolute;
+top:170vh;
+}
+.main3 .photo1{
+    position: absolute;
+    background-image: url(sp.jpg);
+    background-size: cover;
+    width: 70vw;
+    height: 50vh;
+    top: 200vh;
+    left: 15vw;
+}
+.main3 .photo2{
+    position: absolute;
+    background-image: url(coco.jpg);
+    background-size: cover;
+    width: 70vw;
+    height: 50vh;
+    top: 280vh;
+    left: 15vw;
+}
+.main3 .photo3{
+    position: absolute;
+    background-image: url(simba.jpg);
+    background-size: cover;
+    width: 70vw;
+    height: 50vh;
+    top: 360vh;
+    left: 15vw;
+}
+.main3 .photo1_text{
+    position: absolute;
+    text-align: center;
+font-size:1.5rem;
+font-weight:600;
+    left: 12vw;
+    top: 255vh;
+}
+.main3 .photo2_text{
+    text-align: center;
+    position: absolute;
+font-size:1.5rem;
+font-weight:600;
+    left: 20vw;
+    top: 335vh;
+}
+.main3 .photo3_text{
+    text-align: center;
+    position: absolute;
+font-size:1.5rem;
+font-weight:600;
+    left: 25vw;
+    top: 415vh;
+}
+.main4{
+    border: 0px solid black;
+    background-color: white;
+    width: 98.5vw;
+    height: 110vh;
+}
+.main4 .c_photo{
+border:0px solid black;
+    float: left;
+    background-image: url(contact.png);
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+	display:none;
+}
+
+.main4 .in2{ width:100%;
+    border:0px solid black;
+    height:100%;
+    float:right;
+    text-align:center;
+    padding: 3vh 0vw;
+}
+
+.in2 .reach{
+    text-align: center;
+    font-size: 50px;
+color: rgba(55,0,109);
+font-weight:700;
+}
+.in2 .reach_1{
+    text-align: center;
+    font-size: 1.2rem;
+	margin:1vw;
+color: rgba(55,0,109);
+}
+
+.main4 .foorm{ border: 0px solid black;
+        width:95%;
+        height:55%;
+        font-size:1.3rem;
+        font-weight:600;
+margin-top:10vh;
+        padding:3vh 1.5vw;
+        position:relative;
+        text-align:left; }
+
+.main4 .span1{ position:absolute;
+       left:36vw;
+	   top:0vh;
+       color:rgba(55,0,109);	   }
+
+.main4 .span2{ position:absolute;
+       left:36vw;
+	   top:20vh;
+       color:rgba(55,0,109);   }
+
+.main4 .span4{ position:absolute;
+       left:34vw;
+	   top:35vh;
+       color:rgba(55,0,109);	   }
+
+.name{ position:absolute;
+      left:30vw;
+	  top:7vh;
+ padding:0vh 1vw;
+ border:0px solid white;
+ border-radius:3vh;
+       width:30vw;
+       height:4vh;
+       margin:1vh 0vw;
+       font-size:1rem;	   }
+
+.email{ position:absolute;
+       left:30vw;
+	   top:25vh;
+padding:0vh 1vw;
+       width:30vw;
+       height:4vh;
+border:1px solid white;
+ border-radius:3vh;
+font-size:1rem;
+       margin:1vh 0vw;	   }
+
+.message{ position:absolute;
+        left:15vw;
+		top:40vh;
+       width:70vw;
+padding:1vh 1vw;
+border:1px solid white;
+  border-radius:5vh;
+       height:8vh;
+font-size:1rem;
+       margin:1vh 0vw;	   }
+     
+input:focus { text-decoration:none;
+             border:3px solid rgba(55,0,109);}
+
+textarea:focus { text-decoration:none;
+             border:3px solid rgba(55,0,109);}
+
+.butinn{ width:30vw;
+       height:8vh;
+       border-radius: 2rem;
+    position:absolute;
+    top:60vh;
+    left:35vw;
+    background-color:rgba(55,0,109);
+       color:white;
+       font-size:1.2rem;
+       font-weight:600;
+       transition-property:all;
+       transition-duration:0.3s;	   }
+
+.butinn:hover{ background-color: white;
+             color: rgba(55,0,109); }
+			 
+			 
+
+.d1 .d_head{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font: weight 60px;;
+    left: 40%;
+    top: 10%;
+    color: white;
+    background-color: rgb(121, 119, 119);
+}
+.d1 .d_code{
+    position: absolute;
+    top: 20%;
+    left: 37%;
+}
+.d1 .thanks{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font: weight 60px;;
+    left: 39%;
+    top: 80%;
+    background-color: rgb(121, 119, 119);
+    color: white;
+}
+.d1{
+    background-image: url(back1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    float: left;
+    position: absolute;
+}
 }
