@@ -41,6 +41,11 @@ font-family: 'Poppins', sans-serif;
     position: absolute;
 }
 .contact{
+    left: 65vw;
+    float: left;
+    position: absolute;
+}
+.adoption{
     left: 55vw;
     float: left;
     position: absolute;
@@ -481,10 +486,10 @@ textarea:focus { text-decoration:none;
 .butinn{ width:11vw;
        height:6vh;
        border-radius: 2rem;
-position:absolute;
-top:32vh;
-left:24vw;
-  background-color:rgba(55,0,109);
+    position:absolute;
+    top:32vh;
+    left:24vw;
+    background-color:rgba(55,0,109);
        color:white;
        font-size:1.2rem;
        font-weight:600;
@@ -493,3 +498,37 @@ left:24vw;
 
 .butinn:hover{ background-color: white;
              color: rgba(55,0,109); }
+
+.d1 .d_head{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font: weight 60px;;
+    left: 40%;
+    top: 10%;
+    color: white;
+    background-color: rgb(121, 119, 119);
+}
+.d1 .d_code{
+    position: absolute;
+    top: 20%;
+    left: 37%;
+}
+.d1 .thanks{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font: weight 60px;;
+    left: 39%;
+    top: 80%;
+    background-color: rgb(121, 119, 119);
+    color: white;
+}
+.d1{
+    background-image: url(back1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    float: left;
+    position: absolute;
+}
