@@ -991,4 +991,60 @@ textarea:focus { text-decoration:none;
     float: left;
     position: absolute;
 }
+
+.adoption_1{
+    text-align: center;
+    position: absolute;
+    font-size: 40px;
+    font: weight 60px;;
+    left: 37.5%;
+    top: 15%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(251,243,239,255);
+}
+.adoption_photo1{
+    position: absolute;
+    top: 25%;
+    left: 37%;
+}
+.adoption_text1{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font: weight 60px;;
+    left: 40%;
+    top: 85%;
+    color: rgb(0, 0, 0);
+}
+
+
+.adoption_photo2{
+    position: absolute;
+    top: 130%;
+    left: 37%;
+}
+.adoption_text2{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font: weight 60px;;
+    left: 40%;
+    top: 190%;
+    color: rgb(0, 0, 0);
+}
+
+
+.adoption_photo3{
+    position: absolute;
+    top: 235%;
+    left: 37%;
+}
+.adoption_text3{
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font: weight 60px;;
+    left: 40%;
+    top: 295%;
+    color: rgb(0, 0, 0);
 }
